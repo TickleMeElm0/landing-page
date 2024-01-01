@@ -1,9 +1,25 @@
 body{
     background-color: #1f2937;
     color: white;
+    font-family:Lucida Console, courier new, monaco;
+}
+.header{
+    display: flex;
+
 }
 .header-logo {
     font-weight: bold;
     font-size: 24px;
-    font-family:Lucida Console, courier new, monaco;
+    display: flex;
+    margin-right: auto;
+    padding: 48px;
+}
+.right-links{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    gap: flex-end;
+
 }
