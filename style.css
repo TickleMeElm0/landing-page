@@ -38,7 +38,14 @@ h1{
 .image{
     display: flex;
     justify-content: end;
+    padding-right: 150px;
 }
 .body-one{
     display: flex;
+}
+
+.info-sec-one {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
 }
