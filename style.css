@@ -3,24 +3,34 @@ body{
     color: white;
     font-family:Lucida Console, courier new, monaco;
 }
+
 .header{
     display: flex;
 
 }
+
 .header-logo {
     font-weight: bold;
     font-size: 24px;
     display: flex;
     margin-right: auto;
     padding: 48px;
+    padding-left: 150px;
     padding-top: 0px;
 }
+
 .right-links{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 48px;
     padding: 48px;
+    padding-right: 150px;
     padding-top: 0px;
 
+}
+
+h1{
+    font-size: 50px;
+    display: flex;
 }
