@@ -34,3 +34,11 @@ h1{
     font-size: 50px;
     display: flex;
 }
+
+.image{
+    display: flex;
+    justify-content: end;
+}
+.body-one{
+    display: flex;
+}
