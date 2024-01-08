@@ -1,10 +1,11 @@
-body{
+body {
     background-color: #1b1412;
     color: white;
     font-family: "Roboto Slab", serif;
+    margin: auto;
 }
-
-.header{
+/*section one*/
+.header {
     display: flex;
 
 }
@@ -20,7 +21,7 @@ body{
     /*ava was here*/
 }
 
-.right-links{
+.right-links {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,17 +32,17 @@ body{
 
 }
 
-h1{
+h1 {
     font-size: 50px;
     display: flex;
 }
 
-.image{
+.image {
     display: flex;
     justify-content: end;
     padding-right: 150px;
 }
-.body-one{
+.body-one {
     display: flex;
     gap: 100px;
 }
@@ -62,11 +63,12 @@ h1{
     /*hi prettty boy i like you a lot :)*/
 }
 
-.section-two{
+/*section two*/
+.section-two {
     background-color: white;
 }
 
-.section-two-header{
+.section-two-header {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
@@ -75,7 +77,7 @@ h1{
     padding: 30px;
 }
 
-.list{
+.list {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -83,7 +85,7 @@ h1{
     
 }
 
-.list-info{
+.list-info {
     color: grey;
     font-size: 20px;
     font-weight: lighter;
@@ -91,14 +93,25 @@ h1{
     text-align: center;
 }
 
-img.list-image{
+img.list-image {
     width: 200px;
     height: 200px;
     border-radius: 10%;
     border: 5px solid #3882f6;
 }
 
-.section-three{
+/*section three*/
+.section-three {
     background-color: #e5e7eb;
     color: black;
+}
+
+.quote {
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
