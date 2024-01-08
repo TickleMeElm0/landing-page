@@ -122,3 +122,10 @@ img.list-image {
     justify-content: flex-end;
     padding-bottom: 100px;
 }
+
+/*section four*/
+.section-four {
+    background-color: white;
+    color: black;
+    padding: 100px;
+}
