@@ -1,7 +1,7 @@
 body{
-    background-color: #1f2937;
+    background-color: #1b1412;
     color: white;
-    font-family:Lucida Console, courier new, monaco;
+    font-family: "Roboto Slab", serif;
 }
 
 .header{
@@ -53,11 +53,36 @@ h1{
 }
 
 .button {
-    background-color: #1397e9;
+    background-color: #3882f6;
     padding: 10px 24px;
     text-align: center;
     border-radius: 8px;
     width: min-content;
     white-space: nowrap;
     /*hi prettty boy i like you a lot :)*/
+}
+
+.section-two{
+    background-color: white;
+}
+
+.section-two-header{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.list-info{
+    color: grey;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+img.list-image{
+    width: 200px;
 }
